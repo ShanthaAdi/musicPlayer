@@ -1,0 +1,76 @@
+ img{
+  height: 200px;
+  height: 200px;
+  margin-top: 50px;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left:580px;
+  position: relative;
+  z-index: 1;
+  top:-10px;
+  box-shadow: 0  2px 20px;
+  animation: rotate 3s  infinite linear ;
+  animation-play-state: paused;
+ 
+  
+}
+.anime{
+  animation-play-state: running;
+}
+#header{
+  background-color: #ffa62b;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+#header h3{
+  text-shadow: 20px orange;
+ 
+ 
+}
+.icons i {
+font-size: 3rem;
+margin-top: 50px;
+margin-bottom: 40px;
+cursor: pointer;
+
+}
+.fa-step-backward{
+  margin-right: 40px;
+}
+
+.fa-step-forward{
+  margin-left: 40px;
+}
+
+.play{
+  color: crimson;
+  font-size: 6rem !important;
+
+}
+
+@keyframes rotate{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+  
+    transform: rotate(360deg);
+  }
+}
+.progress{
+ width: 0 ;
+ background-color:grey;
+ transition: width 0.1s linear;
+ 
+}
+.progress-container{
+  width: 30%;
+ border: 3px solid rgb(73, 59, 59);
+  margin: 30px auto 10px auto;
+  border-radius: 15px;
+  cursor: pointer;
+}
